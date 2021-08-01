@@ -5,7 +5,9 @@ import SideBar from './components/SideBar';
 
 function App() {
   return (
-    <div className='font-myfont'>
+    <div style={{
+      fontFamily: 'Quicksand, sans-serif' 
+    }} className='font-myfont'>
       <Header/>
       <div className='grid grid-cols-5'>
         <div className='col-span-1'><SideBar/></div>

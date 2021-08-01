@@ -8,7 +8,7 @@ import {
 
 function SideBar() {
   return (
-    <div className="h-screen bg-primary border-t-2 border-gray-800">
+    <div className="h-full bg-primary border-t-2 border-gray-800">
       <SideBarItems text="Categories" icon={<ViewGridIcon />} border />
       <SideBarItems text="Echo and Alexa" />
       <SideBarItems text="Kindle" />

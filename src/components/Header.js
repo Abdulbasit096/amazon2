@@ -23,7 +23,7 @@ function Header() {
           placeholder="Search..."
           type="text"
         />
-        <div className="bg-yellow-500 h-10 w-10 flex items-center justify-center ">
+        <div className="bg-yellow-500 h-full  w-10 flex items-center justify-center ">
           <SearchIcon className="h-6 text-white rounded-md " />
         </div>
       </div>

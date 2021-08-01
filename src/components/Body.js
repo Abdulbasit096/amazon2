@@ -1,6 +1,7 @@
 import React from "react";
 import { DesktopComputerIcon , DeviceMobileIcon, CameraIcon, HomeIcon , GiftIcon , MusicNoteIcon , BookOpenIcon , LightBulbIcon } from '@heroicons/react/outline'
 import Category from "./Category";
+import Product from "./Product";
 
 function Body() {
   return (
@@ -33,8 +34,49 @@ function Body() {
             <h1 className='pb-5 text-4xl font-bold'>
                 Hot Deals
             </h1>
+            <div className='mb-10 flex space-x-12' >
+              <Product 
+              favorite 
+              url='https://www.powerplanetonline.com/cdnassets/nintendo_switch_gris_2019_001_v2_l.jpg'
+              name='Nintendo Switch 2019'
+              company ='Nintendo'
+              ratings = {5}
+              reviews = '21002'
+              price = '290'
+              
+              />
+              <Product 
+               url='https://www.bhphotovideo.com/images/images2500x2500/sony_ilce7sm3_b_alpha_a7s_iii_mirrorless_1577838.jpg'
+              name='Sony As7 III'
+              company ='Sony'
+              ratings = {5}
+              reviews = '2865'
+              price = '3249'
+              
+              />
+              <Product 
+              favorite
+               url='https://unicell.pk/wp-content/uploads/2020/11/apple-iphone-12-pro-max.jpg'
+              name='Apple Iphone 12 Pro Max'
+              company ='Apple'
+              ratings = {5}
+              reviews = '23865'
+              price = '1200'
+              
+              />
+              <Product 
+              favorite
+               url='https://i5.walmartimages.com/dfw/4ff9c6c9-56cb/k2-_00c20a1f-e6e9-41e2-852e-51f6ce1665d4.v1.jpg?odnWidth=282&odnHeight=282&odnBg=ffffff'
+              name='Playstation 5'
+              company ='Sony'
+              ratings = {5}
+              reviews = '50000'
+              price = '600'
+              
+              />
+            </div>
         </div>
-
+{/*  */}
 
 
     </div>
