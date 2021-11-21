@@ -4,4 +4,4 @@ This project was created with [Create React App](https://github.com/facebook/cre
 
 This is an amazon redesign inspired by https://dribbble.com/shots/15350650-Amazon-Website-Redesign-Concept
 
-View it on 
+View it on https://clone-68a7a.firebaseapp.com/
